@@ -1,0 +1,100 @@
+.ant-space-compact {
+    display: table;
+    width: 100%;
+    font-size: 107.69%;
+    border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px;
+    -webkit-border-radius: 4px 0 0 4px;
+}
+.ant-input-affix-wrapper{
+    height: 40px;
+    padding-left: 15px;
+}
+
+.search-wrapper .control .cat-select select {
+    height: 44px;
+    border: none;
+    padding-left: 10px;
+    border-right: 1px solid #e5e5e5;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    background-color: #ff2d37;
+}
+
+
+.ant-input-search .ant-input-search-button  {
+    margin-left: -2px;
+    height: 40px;
+    padding: 0;
+    width: 54px;
+    opacity: 1;
+    border-radius: 0 4px 4px 0;
+    -moz-border-radius: 0 4px 4px 0;
+    -webkit-border-radius: 0 4px 4px 0;
+    color: white;
+    background: var(--themecolor);
+    font-weight: bold;
+}
+.buttonstyle{
+    color: var(--themecolor);
+    width: 40px!important;
+    height: 40px!important;
+    text-align: center;
+    font-size: 19px!important;
+    border: 2px solid #e5e5e5;
+    background-color: white!important;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    transition: 0.2s;
+    -moz-transition: 0.2s;
+    -webkit-transition: 0.2s;
+    margin-left:15px;
+}
+.buttonstyle:hover{
+    background-color: white!important;
+    color:black!important;
+    border: 2px solid #080808 !important
+}
+.buttonstyle2{
+    width: 120px!important;
+    height: 40px!important;
+    /* border: 2px solid #e5e5e5; */
+    color:black;
+    background-color: white!important;
+}
+.buttonstyle1{
+    width: 40px!important;
+    height: 40px!important;
+    /* border: 2px solid #e5e5e5; */
+    background-color: white!important;
+    color:black!important;
+}
+.buttonstyle1:hover{
+    background-color: white!important;
+    color:black!important;
+    /* border: 2px solid #080808 !important */
+}
+.buttonstyle2:hover{
+    background-color: white!important;
+    color:black!important;
+    /* border: 2px solid #080808 !important  */
+}
+
+@media (max-width: 768px) {
+
+    .lowerheadermediastyle{
+        display: none;
+    }
+
+    .logofontstyle{
+        font-size: 19px!important;
+        font-weight: bold!important;
+    }
+
+  }
+
+  .lowerheadercartstyle{
+    margin-left: -10px;
+  }

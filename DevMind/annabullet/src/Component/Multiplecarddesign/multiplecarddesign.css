@@ -1,0 +1,147 @@
+.unorderedlistitems {
+    text-align: justify;
+    padding: 2px 0px;
+}
+
+.multiplecardbutton {
+    background-color: black;
+    color: white;
+    /* margin-left: -24%; */
+
+}
+
+.multiplecardstyle {
+    width: 332px;
+    height: 280px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.multiplecardheading {
+    text-transform: uppercase;
+    font-size: 123%;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.multiplecardheading:hover {
+    color: var(--themecolor);
+}
+
+.unorderedlistitems:hover {
+    color: var(--themecolor);
+
+}
+
+.multiplecardbutton:hover {
+    background-color: var(--themecolor) !important;
+    color: white !important;
+
+}
+
+
+.multiplecardimage {
+    margin-top: 38px;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 133px;
+}
+
+@media (max-width: 768px) {
+    .multiplecardheader {
+        font-size: 28px !important;
+        font-weight: 600 !important;
+    }
+
+    .multiplecardimage {
+        margin-top: 40%;
+        height: 150px;
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width:340px) and (max-width:375px) {
+    .multiplecardstyle {
+        width: 350px;
+        height: auto;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .multiplecardstyle {
+        width: 300px;
+        height: auto;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+}
+
+
+.multicardhovereffect {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.multicardhovereffect:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #2098D1;
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.multicardhovereffect:hover:before,
+.multicardhovereffect:focus:before,
+.multicardhovereffect:active:before {
+    right: 0;
+}
+
+/* button effect */
+.hvr-shutter-in-vertical {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    background: #2098D1;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.hvr-shutter-in-vertical:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #e1e1e1;
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}

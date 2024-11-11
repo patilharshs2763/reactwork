@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-size: 32px;
+    --background-color: #090909;
+    --color: white;
+    --border-radius: 10px;
+    --height: 30px;
+    --text-transform: capitalize;
+    --font-family: "Italianno", cursive;
+    --font-weight: 500;
+
+
+}
+
+.devminds-goalhead {
+    text-align: center;
+    font-size: var(--font-size);
+
+}
+
+.devminds-goalheadcur {
+    text-align: center;
+    font-family: var(--font-family);
+    /* font-weight: var(--font-weight); */
+    /* font-size: var(--font-size); */
+    font-size: 78px;
+    font-weight: 550;
+
+
+
+}
+
+.devminds-focus {
+    text-align: center;
+    /* width: 73%;
+    margin: auto; */
+    font-size: 22px;
+    font-weight: 550;
+}
+
+.devmind-dedicationbtn {
+    padding: 6px 20px;
+}

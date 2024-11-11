@@ -1,0 +1,99 @@
+/* Comman.css */
+:root {
+  --buttonBgcolor: black;
+  --buttonOnHoverBgcolor: #d3d3d3;
+  --buttonOnHovercolor: black;
+  --backgroundcolorall: black;
+  --colorall: black;
+  --whitecolor: #ffffff;
+  --buttonheight: 50px;
+  --buttonwidth: 232px;
+  --buttontextfontsize: 15px;
+  --headerbuttonborderradius: 25px;
+  --headerwidth: 100%;
+  --widthall: 100%;
+  --headerbuttonheight: 37px;
+  --headerbuttonwidth: 122px;
+  --headerfontsize: 12px;
+  --fontfamilyall: "Italianno", cursive;
+  --fontweightall: 400;
+  --fontstyleall: normal;
+  --fontsizeall: 78px;
+  --textalignall: center;
+  --justifycontent: center;
+  --alignitemsall: center;
+  --fontsizetitle: 35px;
+  --paregraphfontsize: 17px;
+}
+
+/* Default background colors */
+.black-background {
+  background-color: black;
+  color: white;
+}
+
+.white-background {
+  background-color: white;
+  color: black;
+}
+
+.toggle-button {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  width: 50px;
+  height: 22px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+}
+
+.toggle-button .toggle-icon {
+  margin-right: 8px;
+}
+
+.toggle-button.bg-light {
+  background-color: #fff;
+  color: #000;
+}
+
+.toggle-button.bg-dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.cursor__dot {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+.cursor__default {
+  cursor: default !important;
+}
+
+@media (max-width: 1410px) {
+  .toggle-button {
+    display: none;
+  }
+}
+
+/* Additional styles to ensure other components adapt to theme changes */
+header,
+footer {
+  padding: 10px;
+}
+
+/* Additional styles to ensure images are not affected */
+img {
+  filter: none !important;
+}

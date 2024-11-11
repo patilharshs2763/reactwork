@@ -1,0 +1,9 @@
+.custom-offcanva {
+    line-height: 1.1;
+
+}
+
+.cust-navkink:hover,
+.cust-navkink:active {
+    color: blue;
+}

@@ -1,0 +1,33 @@
+.devmind-upper-footer{
+    background-color: #f6f6f6;
+    padding: 20px 0;
+}
+
+.devmind-upper-footer .upper-footer-block{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.devmind-upper-footer .upper-footer-block .upper-footer-image{
+    width: 100%;
+}
+
+.devmind-upper-footer .upper-text-block{
+    padding: 23px 0px 0px 0px;
+    width: 100%;
+
+}
+
+.devmind-upper-footer .upper-text-block .upper-footer-heading{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media (max-width:768px) {
+    .devmind-upper-footer .upper-text-block .upper-footer-text{
+        font-size: 13px;
+    }
+}

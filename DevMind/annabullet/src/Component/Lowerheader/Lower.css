@@ -1,0 +1,34 @@
+.devmind-rightButtons {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:1024px) {
+    .cartData {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .logofontstyle {
+        text-align: center;
+    }
+
+    .heartButton {
+        visibility: hidden;
+    }
+
+    .cartData {
+        font-size: 12px;
+    }
+
+    .devmindDropSearch {
+        margin-top: 0px !important;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .heartButton {
+        margin-right: 10px;
+    }
+}

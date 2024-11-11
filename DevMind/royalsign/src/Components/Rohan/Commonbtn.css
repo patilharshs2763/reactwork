@@ -1,0 +1,23 @@
+.audbtn {
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.devminds-audience {
+    /* background-color: black!important;
+    color: white;
+    border-radius: 10px!important;
+    text-transform: capitalize!important;
+    font-size: 15px!important;
+    width: 160px;
+    height: 30px;
+    font-size: 13px!important; */
+
+    background-color: var(--background-color) !important;
+    color: var(--color) !important;
+    border-radius: var(--border-radius) !important;
+    font-size: 15px!important;
+    height: var(--height) !important;
+    text-transform: var(--text-transform) !important;
+}

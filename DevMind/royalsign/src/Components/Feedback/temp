@@ -1,0 +1,74 @@
+// import React from 'react'
+// import { Row, Col, Flex } from 'antd'
+// import { StarFilled } from '@ant-design/icons';
+
+// import "./Feedback.css"
+// const Feedback = () => {
+//     return (
+//         <div className='container-fluid devmind-feedback'>
+//             <h1 className='devmind-feedback-title'>lovely feedback from our clients</h1>
+//             <div className='devmin-feedback-data'>
+//                 <Row >
+//                     <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8} className='devmind-userfeedback'>
+//                         <div>
+//                             <span><StarFilled /><StarFilled /><StarFilled /><StarFilled /></span><br />
+//                             <span>Very professional and<br />
+//                                 understanding and fast</span><br />
+//                             <span>-Mr.Patil</span>
+//                         </div>
+//                     </Col>
+//                     <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8} className='devmind-userfeedback'>
+//                         <div>
+//                             <span><StarFilled /><StarFilled /><StarFilled /><StarFilled /></span><br />
+//                             <span>Very professional and<br />
+//                                 understanding and fast</span><br />
+//                             <span>-Mr.Patil</span>
+//                         </div>
+//                     </Col>
+//                     <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8} className='devmind-userfeedback'>
+//                         <div>
+//                             <span><StarFilled /><StarFilled /><StarFilled /><StarFilled /></span><br />
+//                             <span>Very professional and<br />
+//                                 understanding and fast</span><br />
+//                             <span>-Mr.Patil</span>
+//                         </div>
+//                     </Col>
+//                 </Row>
+//             </div>
+//         </div >
+//     )
+// }
+
+// export default Feedback
+// .devmind-feedback {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: end;
+//     background-image: url("../Images/lightroad.jpg");
+//     background-size: cover;
+//     height: 80vh;
+//     margin-top: 10px;
+//     color: white;
+//     box-shadow: inset 0px -85px 33px rgba(0, 0, 0, 0.7);
+
+// }
+
+// .devmind-userfeedback {
+//     width: 50%;
+//     text-align: center;
+// }
+
+// .devmind-user {
+//     width: 300px;
+// }
+
+// .devmind-feedback-title {
+//     margin-bottom: 20px;
+//     text-align: center;
+//     font-style: italic;
+// }
+
+// .devmin-feedback-data {
+//     margin-bottom: 50px;
+//     color: white;
+// }

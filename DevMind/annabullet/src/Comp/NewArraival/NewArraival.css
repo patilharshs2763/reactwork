@@ -1,0 +1,46 @@
+.new-arraival1 {
+    height: 300px;
+    width: 90%;
+    margin-bottom: -80px !important;
+    object-fit: cover;
+    border-radius: 8px 8px 8px 8px !important;
+}
+
+.new-arraival2 {
+    height: 300px;
+    width: 90%;
+    object-fit: cover;
+    margin-bottom: -50px !important;
+    border-radius: 8px 8px 8px 8px !important;
+}
+
+.new-arraival1:hover,
+.new-arraival2:hover {
+    opacity: 0.9;
+}
+
+.new-arraivaldisc {
+    display: grid;
+    justify-content: start;
+    position: absolute;
+    top: 20%;
+}
+
+.arr-head2 {
+    color: white;
+}
+
+.arr-head {
+    text-align: start;
+    color: rgb(255, 25, 0);
+    font-weight: bolder;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+
+    .new-arraival1,
+    .new-arraival2 {
+        margin-bottom: -50px !important;
+
+    }
+}

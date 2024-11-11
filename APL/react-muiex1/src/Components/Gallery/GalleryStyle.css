@@ -1,0 +1,8 @@
+.gallery-main{
+    display: flex;
+    justify-content: center;
+}
+.imageGallery {
+    overflow-y: hidden !important;
+    width: 1200px;
+}

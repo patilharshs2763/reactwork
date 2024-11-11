@@ -1,0 +1,87 @@
+.harsh-educationContent {
+    padding: 0% 5%;
+}
+
+.harsh-experienceCol {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.harsh-education,
+.harsh-experience {
+
+    padding: 20px;
+}
+
+.harsh-qualification {
+    color: var(--socialColor) !important;
+    padding-top: 20px;
+    margin-bottom: 0px !important;
+    text-align: center;
+}
+
+.harsh-educationJourney {
+    margin-top: 0px !important;
+    color: var(--myName) !important;
+    text-align: center;
+}
+
+.harsh-eduIcon,
+.harsh-eduDate {
+    margin-right: 8px;
+    color: var(--stepperColor);
+}
+
+/* Title color  */
+.ant-steps-item-title {
+    color: var(--stepperColor) !important;
+    font-weight: bold;
+}
+
+/* Description color  */
+.ant-steps-item-description {
+    color: rgb(0, 0, 0) !important;
+}
+
+
+/* Make sure the line stays for all items */
+.ant-steps-item-tail {
+    height: auto;
+    /* Adjust automatically based on content */
+}
+
+/* Remove the dot and keep the line for the last item */
+.ant-steps-item:last-child .ant-steps-item-icon {
+    display: none;
+    /* height: 10px !important; */
+    /* Hide the dot for the last step */
+}
+
+.ant-steps-item:last-child .ant-steps-item-tail {
+    display: block;
+    /* Ensure the vertical line remains for the last step */
+    /* height: 14px !important; */
+    /* Adjust this height if needed */
+}
+
+.harshSetpper .ant-steps-item-tail::after {
+    background-color: var(--stepperColor) !important;
+    width: 1.8px !important;
+}
+
+.harshSetpper .ant-steps-icon .ant-steps-icon-dot {
+    background: var(--stepperColor) !important;
+}
+
+.harshSetpper2 .ant-steps-item-tail::after {
+    background-color: var(--stepperColor) !important;
+    width: 1.8px !important;
+}
+
+.harshSetpper2 .ant-steps-icon .ant-steps-icon-dot {
+    background: var(--stepperColor) !important;
+}
+
+:where(.css-dev-only-do-not-override-ccdg5a).ant-steps.ant-steps-vertical.ant-steps-dot .ant-steps-item>.ant-steps-item-container>.ant-steps-item-tail {
+    top: 0px !important;
+}

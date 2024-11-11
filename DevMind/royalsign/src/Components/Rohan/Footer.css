@@ -1,0 +1,75 @@
+.devminds-qicklink{
+    list-style: none; 
+}
+
+.devminds-footer{
+    background-color: rgb(83, 82, 82);
+    padding: 20px 0px;
+    
+}
+
+li{
+    color: rgb(209, 206, 206);
+    font-weight: 400;
+}
+
+.devminds-main-link{
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.socialmedia{
+    height: 25px;
+    width: 25px;
+
+}
+
+.devminds-copyright{
+    color: rgb(209, 206, 206);
+    font-weight: 400;
+    padding: 0px 10px;
+}
+
+.devminds-royalsign{
+    height: 30px;
+    width: 100%;  
+}
+
+.devminds-handle{
+   
+    margin-left: 10px;
+    
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px){
+.devminds-footer{
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 30%; */
+    
+}
+.devminds-handle{
+    justify-content: center;
+    margin-left: 6%;
+}
+}
+
+@media screen and (max-width: 576px){
+    .devminds-footer{
+        text-align: center;
+    }
+    .devminds-handle{
+        justify-content: center;
+        margin-left: 8%; 
+    }
+}
+
+.devminds-line{
+    color: rgb(200, 9, 9);
+    box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.6);
+    height: 5px;
+
+}

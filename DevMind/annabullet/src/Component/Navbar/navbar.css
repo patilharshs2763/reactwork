@@ -1,0 +1,141 @@
+.ant-menu-dark.ant-menu-horizontal >.ant-menu-item-selected{
+    /* background: black; */
+    height: 52px;
+    line-height: 50px;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 0 20px;
+    color: white;
+    font-size: 107.69%;
+    cursor: pointer;
+    border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+    font-size: 16px;
+}
+.navbaritem{
+  font-size: 16px!important;
+  font-weight: 700;
+}
+
+.ant-menu-dark.ant-menu-horizontal >.ant-menu-item-selected{
+  background-color: #dddddd;
+}
+
+.ant-menu-dark.ant-menu-horizontal >.ant-menu-item-selected:hover{
+  background-color: var(--themecolor);
+}
+
+
+:where(.css-dev-only-do-not-override-42nv3w).ant-menu-dark.ant-menu-submenu-popup>.ant-menu, :where(.css-dev-only-do-not-override-42nv3w).ant-menu-dark>.ant-menu.ant-menu-submenu-popup>.ant-menu {
+  background-color: #dddddd;
+  color: black!important;
+}
+
+:where(.css-dev-only-do-not-override-42nv3w).ant-menu-dark .ant-menu-item, :where(.css-dev-only-do-not-override-42nv3w).ant-menu-dark>.ant-menu .ant-menu-item, :where(.css-dev-only-do-not-override-42nv3w).ant-menu-dark .ant-menu-submenu-title, :where(.css-dev-only-do-not-override-42nv3w).ant-menu-dark>.ant-menu .ant-menu-submenu-title {
+  color: black;
+}
+
+:where(.css-dev-only-do-not-override-42nv3w).ant-menu-dark .ant-menu-item:not(.ant-menu-item-selected):not(.ant-menu-submenu-selected):hover{
+  background-color: var(--themecolor);
+
+}
+:where(.css-dev-only-do-not-override-42nv3w).ant-menu-dark, :where(.css-dev-only-do-not-override-42nv3w).ant-menu-dark>.ant-menu {
+    color: rgba(255, 255, 255, 0.65);
+    background:#ddd;
+    font-weight: 600;
+    padding: 0 152px;
+}
+
+
+.ant-menu-horizontal .ant-menu-item{
+  padding-inline: 26px;
+}
+.allcategoristyle{
+    background: #ddd!important;
+    color: black!important;
+    font-weight: 600!important;
+    padding: 13px 17px;
+    margin-left: 15%!important;
+}
+
+:where(.css-dev-only-do-not-override-42nv3w).ant-menu-dark .ant-menu-submenu-title{
+    color: white;
+}
+
+.drawerbuttonstyle{
+     background-color: black;
+     color: white;
+     font-size: 25px;
+     margin-left: 100%;
+     display: block;    
+}
+
+.drawericonbutton{
+  font-size: 14px;
+}
+
+/* @media (max-width: 768px) {
+
+    .drawerbuttonstyle{
+        display: block;
+        line-height: 4px;
+        margin-top: -40px;
+        margin-left: 88%;  
+    }
+
+    .navbarmediastyle{
+        display: none;
+    }
+    .scrollingheaderstyle{
+      display: none;
+    }
+
+  } */
+
+  .devminds-visible{
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:1000;
+    background-color:#fff;
+    transform:translateY(0);
+    transition:opacity .5s ease-in-out
+  }
+  .devminds-hidden{
+    transform:translateY(-100%);
+    display: none;
+  }
+
+  html
+  {
+    scroll-behavior:smooth
+  }
+  .app{
+    transition:transform .3s ease-in-out
+  }
+
+  .navbarscrollingdesign{
+    margin-top: 12px;
+  }
+
+  .navbaritemforscrollingheader{
+    font-size: 17px;
+    font-weight: 500;
+    /* text-transform: uppercase; */
+  }
+
+  .menuforscrollingheader:hover{
+    color: var(--defalutcolor)!important;
+  } 
+
+  .iconscrollingheader{
+    font-size: var(--iconfontsize)!important;
+  }
+
+  /* .unorderlist{
+    margin-left: 15%!important;
+  } */
+
+
+  

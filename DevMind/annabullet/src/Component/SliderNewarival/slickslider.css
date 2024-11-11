@@ -1,0 +1,207 @@
+
+.devmind-desktop-shopbybrands {
+  /* background-color: #f6f6f6; */
+  padding-bottom: 40px;
+}
+
+
+/* Ensure the images are responsive */
+.img-fluid {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Adjust the slider item container */
+  .slider-item {
+    padding: 10px;
+  }
+  
+  /* Ensure the slider container is responsive */
+  .slider-container {
+    max-width: 100%;
+    margin: auto;
+    padding: 0 15px;
+  }
+  
+  /* Media queries for responsive adjustments */
+  @media (max-width: 1024px) {
+    .slider-container {
+      padding: 0 10px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .slider-container {
+      padding: 0 5px;
+    }
+  }
+  
+  /* Additional styles for the testimonials */
+  .devminds-mesagecardd {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .devminds-img {
+    margin-top: 15px;
+    border-radius: 10px;
+  }
+
+
+  /* card css */
+ .devmind-slider-card .devmind-slider-button .button-span-style {
+  margin: 0 20px !important;
+  font-size: 15px;
+  font-weight: 400;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  padding: 1px 1px !important;
+}
+ .devmind-slider-button {
+  /* background-color: var(--theme-color-text) !important;
+  color: white;
+  border: none;
+  width: 100%;
+  border-radius: 0px; */
+  background-color: white;
+  color:  var(--theme-color-text) !important;
+  border: 1px solid var(--theme-color-text);
+  border-radius: 0px;
+  width: 100%;
+}
+ .devmind-slider-button:hover {
+  background: var(--theme-color_1) !important;
+  color: white !important;
+}
+
+.devmind-desktop-multicard .devmind-slider-button {
+  background: var(--theme-color_1) !important;
+  color: white;
+  border: none;
+}
+ .devmind-slider-card .main-card{
+  text-align: center;
+  line-height: 38px;
+}
+
+
+.devmind-slider-card .ant-card-body {
+  padding: 0px !important;
+  /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 16px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+  border-radius: 8px !important;
+}
+
+.devmind-slider-card .main-card .one-line-clamp {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0px 30px 0px 30px;
+}
+ .devmind-slider-card .devminds-product-image {
+  width: 100%;
+  height: 270px;
+}
+
+/* Overlay effect */ .devmind-slider-card .image-container {
+  position: relative;
+  width: 100%;
+}
+ .devmind-slider-card .image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+ .devmind-slider-card .image-container .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(225 215 215 / 20%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ .devmind-slider-card .image-container:hover .overlay {
+  opacity: 1;
+}
+ .devmind-slider-card .image-container .text {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+    background: var(--theme-color-text);
+    padding: 10px 10px 10px 10px;
+    border-radius: 50%;
+}
+
+
+.devmind-desktop-shopbybrands  .shopbybrands-card-text{
+  text-align: center;
+  color: var(--theme-color-text);
+
+}
+
+.devmind-desktop-shopbybrands  .shopbybrands-card-heading{
+text-align: center;
+font-weight: bold;
+margin-top: 0px !important;
+}
+
+.devmind-desktop-shopbybrands  .shopbybrands-card-heading .shopbybrands-card-heading-icon{
+color: var(--theme-color-text);
+}
+
+.hvr-add-to-list {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 5s;
+  transition-duration: 5s;
+}
+
+.hvr-add-to-list:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--theme-color_1);
+  border-radius: 6px;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.9s;
+  transition-duration: 0.9s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  color:white !important;
+}
+
+.hvr-add-to-list:hover, .hvr-add-to-list:focus, .hvr-add-to-list:active {
+  color: white !important;
+  border: none;
+}
+
+.hvr-add-to-list:hover:before, .hvr-add-to-list:focus:before, .hvr-add-to-list:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+  

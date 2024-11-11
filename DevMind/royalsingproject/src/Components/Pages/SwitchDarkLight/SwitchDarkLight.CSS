@@ -1,0 +1,31 @@
+/* .toggle-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 50px;
+    height: 22px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+
+.toggle-button .toggle-icon {
+    margin-right: 8px;
+}
+
+.toggle-button.bg-light {
+    background-color: #fff;
+    color: #000;
+}
+
+.toggle-button.bg-dark {
+    background-color: #000;
+    color: #fff;
+} */

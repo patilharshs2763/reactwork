@@ -1,0 +1,51 @@
+.imageCardContainer {
+    position: relative;
+    width: 100%; 
+  }
+  
+  .imagedesign {
+    width: 100%; 
+    height: auto; 
+  }
+  
+  .carddesign {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+    width: 54%; 
+    background: rgb(41 41 43 / 55%);
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    border-radius: 8px;
+  }
+  .cardbuttonstylesearch{
+    margin: 0 8px;
+    padding: 0px 17px;
+    background: red;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .cardbuttonstyle {
+    /* margin: 0 8px;  */
+    margin: 0 8px;
+    padding: 0px 17px;
+    background: white;
+    color: black;
+    
+}
+
+@media (max-width: 768px){
+  :where(.css-dev-only-do-not-override-42nv3w).ant-image .ant-image-img {
+    width: 100%;
+    height: 500px!important;
+    vertical-align: middle;
+}
+}
+
+
+
+  
+  

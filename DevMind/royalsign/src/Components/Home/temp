@@ -1,0 +1,56 @@
+// import React from 'react'
+// import './Home.css'
+// const Home = () => {
+//     return (
+//         <div className='container-fluid devmind-home'>
+//             <div className='devmind-royalsign'>
+//                 <h1 className='devmind-royal'>ROYAL<span className='devmind-sign'>Sign</span></h1>
+//             </div>
+//             <div className='devmind-royaltext'>
+//                 <h3> we are create<br />
+//                     connection through<br />
+//                     outdoor advertising</h3><br />
+//             </div>
+//         </div>
+//     )
+// }
+
+// export default Home
+
+//     .devmind - home {
+//     position: relative;
+//     background - image: url("../Images/backimg.jpg");
+//     background - size: cover;
+//     height: 80vh;
+//     margin - top: -64px;
+//     z - index: -1;
+//     border - radius: 0px 0px 25px 25px;
+// }
+
+// .devmind - royalsign {
+//     position: absolute;
+//     left: 0;
+//     bottom: 0;
+//     padding: 0 0 3 % 3 %;
+//     color: white;
+// }
+
+// .devmind - sign {
+//     font - size: large;
+// }
+
+// .devmind - royaltext {
+//     position: absolute;
+//     right: 0;
+//     bottom: 0;
+//     padding: 0 20px 20px 0px;
+//     color: white;
+// }
+
+// @media(max - width: 520px) {
+
+//     .devmind - royalsign,
+//     .devmind - royaltext {
+//         visibility: hidden;
+//     }
+// }

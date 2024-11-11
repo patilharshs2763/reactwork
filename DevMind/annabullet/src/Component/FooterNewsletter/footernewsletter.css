@@ -1,0 +1,60 @@
+.devmind-footer-newsletter .footer-newsletter-flex {
+    justify-content: space-evenly;
+}
+
+.devmind-footer-newsletter .flex-icon-block {
+    padding: 30px 30px 20px 30px;
+    background-color: var(--theme-color_4);
+}
+
+.devmind-footer-newsletter .search-block {
+    background-color: var(--theme-color_1);
+    padding: 22px 30px 20px 30px;
+}
+
+.devmind-footer-newsletter .text-newsletter {
+    text-align: start;
+    font-weight: 600;
+    color: white;
+}
+
+.devmind-footer-newsletter .custom-search .ant-input-search-button {
+    background: red;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.devmind-footer-newsletter .ant-input-outlined:hover {
+    border-color: #fdfcfc;
+}
+
+.devmind-footer-newsletter .flex-icon-block .footer-newsletter-flex .footer-newsletter-button:hover {
+    background-color: red;
+    border-color: red;
+    color: white;
+}
+
+.devmind-footer-newsletter .custom-search input::placeholder {
+    color: var(--theme-color_1);
+    font-weight: 400;
+    font-size: 107.69%;
+}
+
+@media (max-width:768px) {
+    .devmind-footer-newsletter .flex-icon-block {
+        padding: 30px 30px 20px 10px;
+    }
+
+    .devmind-footer-newsletter .footer-newsletter-flex {
+        gap: 1px;
+    }
+
+    .devmind-footer-newsletter .search-block {
+        padding: 0px 6px 16px 13px;
+    }
+
+    .devmind-footer-newsletter .social-card-newsletter-image {
+        width: 100%;
+    }
+
+}

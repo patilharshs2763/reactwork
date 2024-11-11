@@ -1,0 +1,27 @@
+.productsCard {
+    margin: 0% 7%;
+}
+
+.Product-card {
+    display: flex;
+    justify-content: center;
+}
+
+.cardClass {
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(135, 135, 137); */
+}
+
+.cardRow {
+    /* margin: 0px !important; */
+}
+
+.iphoneimg {
+    height: 260px;
+    width: 100%;
+}
+
+.buyBtn {
+    margin-top: 5px;
+}

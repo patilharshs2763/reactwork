@@ -1,0 +1,8 @@
+.devmind-desktop-newarrival .newarrival-image{
+    width: 100%;
+}
+
+.devmind-desktop-newarrival .newarrival-image:hover{
+    opacity: 0.7;
+}
+

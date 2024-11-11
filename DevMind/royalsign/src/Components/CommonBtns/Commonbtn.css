@@ -1,0 +1,20 @@
+.audbtn {
+    margin-top: 10px;
+    text-align: center;
+}
+
+:root {
+    --btnHeight: 50px;
+    --btnWidth: 232px;
+}
+
+.devminds-audience {
+
+    background-color: var(--background-color) !important;
+    color: var(--color) !important;
+    border-radius: var(--border-radius) !important;
+    font-size: 15px !important;
+    height: var(--btnHeight) !important;
+    width: var(--btnWidth) !important;
+    text-transform: var(--text-transform) !important;
+}

@@ -1,0 +1,32 @@
+.state-ex {
+    text-align: center;
+}
+
+.dec-button {
+    background-color: rgba(237, 68, 68, 0.785);
+    height: 40px;
+    width: 90px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    /* border: 2px solid ; */
+}
+
+.inc-button {
+    background-color: rgba(17, 233, 71, 0.785);
+    height: 40px;
+    width: 90px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    /* border: 2px solid ; */
+}
+
+.res-label {
+    border: 2px solid black;
+    background-color: rgba(33, 161, 225, 0.785);
+    font-weight: bold;
+    /* width: 100px; */
+    padding: 5px;
+    margin: 0px 10px 0px 10px;
+}

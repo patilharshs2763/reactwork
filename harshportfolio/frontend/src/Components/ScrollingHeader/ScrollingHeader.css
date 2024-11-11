@@ -1,0 +1,23 @@
+.harsh-visible {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    /* height: 70px; */
+    background-color: #fff;
+    transform: translateY(0);
+    transition: opacity .5s ease-in-out
+}
+
+.harsh-hidden {
+    transform: translateY(-100%);
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.app {
+    transition: transform .3s ease-in-out
+}

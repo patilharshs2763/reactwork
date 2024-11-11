@@ -1,0 +1,22 @@
+/* src/styles/ProductCard.module.css */
+.productCard {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: calc(25% - 20px);
+}
+
+.productCard img {
+    max-width: 100%;
+    height: auto;
+}
+
+.productCard button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}

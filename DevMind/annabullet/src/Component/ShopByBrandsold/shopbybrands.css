@@ -1,0 +1,144 @@
+/* .devmind-ShopByBrand-slider .shopbybrand-text{
+    text-align: center;
+    color: var(--theme-color-text);
+}
+
+.devmind-ShopByBrand-slider .shopbybrand-heading{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0px !important;
+    text-align: center;
+}
+
+.devmind-ShopByBrand-slider .shopbybrand-heading .shopbybrand-heading-icon{
+    color: var(--theme-color-text);
+}
+
+.devmind-ShopByBrand-slider .shopbybrand-image{
+    width: 100%;
+    height: 140px;
+
+}
+
+.devmind-ShopByBrand-slider .image-block{
+border: 0.1px solid #e5e5e5;
+
+} */
+
+/* .devmind-desktop-shopbybrands .image-container .devmind-slider-image .devmind-slider-button .button-span-style
+.main-card{
+
+} */
+
+
+.devmind-desktop-shopbybrands .devmind-slider-card .devmind-slider-button .button-span-style {
+    margin: 0 20px !important;
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    padding: 1px 3px;
+  }
+  
+  /* for vertical line after span  */
+  .devmind-desktop-shopbybrands .devmind-slider-button .button-span-style::after {
+    content: '';
+    position: absolute;
+    right: -20px;
+    height: 35px;
+    border-right: 1px solid #f3f0f0;
+  }
+  
+  .devmind-desktop-shopbybrands .devmind-slider-button .button-span-style:last-child::after {
+    content: none;
+  }
+  
+  .devmind-desktop-shopbybrands .devmind-slider-button {
+    background-color: var(--theme-color-text) !important;
+    color: white;
+    border: none;
+    width: 100%;
+    border-radius: 0px;
+  }
+  
+  .devmind-desktop-shopbybrands .devmind-slider-button:hover {
+    background: var(--theme-color_1) !important;
+    color: white !important;
+  }
+  
+  .devmind-desktop-multicard .devmind-slider-button {
+    background: var(--theme-color_1) !important;
+    color: white;
+    border: none;
+  }
+
+  .devmind-desktop-shopbybrands .devmind-slider-card .main-card{
+    text-align: center;
+    line-height: 38px;
+  }
+
+
+  .devmind-slider-card .ant-card-body {
+    padding: 0px !important;
+    /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 16px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+    border-radius: 8px !important;
+  }
+  
+  .devmind-slider-card .main-card .one-line-clamp {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0px 30px 0px 30px;
+  }
+  
+ .devmind-desktop-shopbybrands .devmind-slider-card .devminds-product-image {
+    width: 100%;
+    height: 270px;
+  }
+  
+  /* Overlay effect */
+ .devmind-desktop-shopbybrands .devmind-slider-card .image-container {
+    position: relative;
+    width: 100%;
+  }
+  
+ .devmind-desktop-shopbybrands .devmind-slider-card .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+ .devmind-desktop-shopbybrands .devmind-slider-card .image-container .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(225 215 215 / 20%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+ .devmind-desktop-shopbybrands .devmind-slider-card .image-container:hover .overlay {
+    opacity: 1;
+  }
+  
+ .devmind-desktop-shopbybrands .devmind-slider-card .image-container .text {
+      color: white;
+      font-size: 20px;
+      display: flex;
+      gap: 10px;
+      background: var(--theme-color-text);
+      padding: 10px 10px 10px 10px;
+      border-radius: 50%;
+  }
+
+
+
+

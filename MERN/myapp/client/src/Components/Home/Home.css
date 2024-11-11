@@ -1,0 +1,33 @@
+.hero-content p {
+    font-size: 1rem;
+    line-height: 1.56;
+    letter-spacing: 0.045rem;
+    word-spacing: 0.04rem;
+    text-align: justify;
+}
+
+.hero-content h1 {
+    font-size: 2rem;
+    line-height: 1.1;
+    font-weight: bold;
+}
+
+.connect-now-button,
+.learnmore-button {
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.01rem;
+    text-decoration: inherit;
+    text-transform: capitalize;
+    padding: 0.4rem 0.4rem;
+    background-color: blue;
+    border: 0.1rem solid transparent;
+    letter-spacing: 0.05rem;
+}
+
+.connect-now-button:hover,
+.learnmore-button:hover {
+    background-color: blue;
+    box-shadow: inset 0 0 0 0.2rem white;
+}
+

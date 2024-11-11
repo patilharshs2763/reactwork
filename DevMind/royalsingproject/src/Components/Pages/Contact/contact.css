@@ -1,0 +1,104 @@
+.contactbg {
+    /* padding-bottom: 50px; */
+    background-image: linear-gradient(rgb(0 0 0 / 0%), rgb(247 247 247 / 19%));
+      /* url(""); */
+    /* margin-bottom: 58px;
+    margin-top: -3px;*/
+    background-image: url("https://img.freepik.com/premium-psd/large-roadside-sign-board-advertisement-roadside-billboard-sign-mockup-outdoor-signage-template_919056-5140.jpg");
+    background-size: cover;
+    /* background-image: linear-gradient(rgb(0 0 0 / 0%), rgb(247 247 247 / 19%)); */
+    margin-bottom: -5px;
+    margin-top: -77px;
+    background-size: cover;
+  }
+  .inputContact,
+  .inputContact:focus {
+    background-color: #f0f8ff42 !important;
+    border: 1px solid #9da6af;
+    /* color: #fff; */
+    color: black;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-radius: 150px;
+  }
+  .inputContact .ant-input-number-input {
+    /* color: #fff; */
+    color: black;
+    padding: 0;
+  }
+  ::placeholder {
+    /* color: #fff !important; */
+    color: black !important;
+    opacity: 1;
+  }
+  .buttonsubmistyle {
+    margin-top: 10px;
+  }
+  .contactmaintitle {
+    padding-top: 30px;
+    height: 30px;
+    margin-top: 66px;
+    font-family: var(--fontfamilyall) !important;
+    font-size: var(--fontsizeall);
+    margin-bottom: 47px;
+  }
+  .inputtitle {
+    font-family: emoji;
+    font-size: 18px !important;
+    color: black !important;
+  }
+  .inputContact :-ms-input-placeholder {
+    color: red;
+  }
+  .inputContact ::-ms-input-placeholder {
+    color: red;
+  }
+  .contacttitle {
+    font-family: Krylon, Sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: oblique;
+    /* color: #fff; */
+    color: black;
+    text-shadow: 1px 2px #120c0c;
+  }
+  .textincontactp {
+    /* color: #fff; */
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    text-shadow: 3px 4px 11px #120c0c;
+  }
+  .maintitle {
+    font-weight: 800;
+    /* color: #fff; */
+    color: black;
+    text-shadow: 1px 2px #120c0c;
+  }
+  .devminds-buttoncolorclass {
+    /* background-color: var(--allthimcolor); */
+    /* background-color: black; */
+    width: 0px;
+  }
+  .devminds-ifamemap {
+    padding-top: 15px;
+  }
+ 
+  @media (max-width:768px) {
+  
+  .devminds-textfind {
+    font-size: 13px !important;
+}
+.contactsubmitb{
+  height: 37px !important;
+  width: 150px !important;
+  align-items: center !important;
+}
+
+.contactmaintitle {
+  text-align: center;
+  margin-left: -27px;
+  font-size: 43px;
+}
+}

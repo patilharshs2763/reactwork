@@ -1,0 +1,7 @@
+.login-form {
+    margin: auto !important;
+    margin-top: 10% !important;
+    border: 2px solid rgb(188, 186, 186);
+    border-radius: 10px;
+    padding: 20px !important;
+}

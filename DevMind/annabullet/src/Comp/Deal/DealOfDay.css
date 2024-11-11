@@ -1,0 +1,9 @@
+.deal {
+    /* display: flex; */
+    /* align-items: center; */
+    height: 90vh;
+    background-image: url('../ReImages/royal-enfield-hd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

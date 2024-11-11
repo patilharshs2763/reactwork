@@ -1,0 +1,166 @@
+.devmind-desktop-deal-of-day{
+    background-image: url('https://magento2.magentech.com/themes/sm_autostore/pub/static/frontend/Sm/autostore/en_US/images/bg-deal.jpg');
+    padding: 65px 0;
+    margin-bottom: 75px;
+}
+.devmind-desktop-deal-of-day .dealofday-card .dealofday-image {
+    width: 100%;
+}
+
+.devmind-desktop-deal-of-day .dealofday-card .dealofday-image :hover{
+    opacity: 5 !important;
+}
+
+.dealofday-second-image {
+    width: 100% !important;
+}
+
+.devmind-desktop-deal-of-day .dealofday-card .dealofday-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    line-height: 1.5;
+}
+
+.devmind-desktop-deal-of-day .dealofday-card .card-second-block {
+    line-height: 55px;
+}
+
+.devmind-desktop-deal-of-day .dealofday-card .addtocard-button {
+    background-color: var(--theme-color-text);
+    color: white;
+    border-color: var(--theme-color-text);
+}
+
+.devmind-desktop-deal-of-day .dealofday-card .addtocard-button:hover {
+    background-color: var(--theme-color_1);
+    color: white;
+    border-color: var(--theme-color_1);
+}
+
+.devmind-desktop-deal-of-day .dealofday-card .icon-button {
+    background-color: var(--theme-color_1);
+    color: white;
+    border-color: var(--theme-color_1);
+    padding: 0px 9px;
+}
+
+.devmind-desktop-deal-of-day .dealofday-card .icon-button:hover {
+    background-color: var(--theme-color-text);
+    color: white;
+    border-color: var(--theme-color-text);
+
+}
+
+.devmind-desktop-deal-of-day .dealofday-card .icon-button .icon-style {
+    font-size: 16px;
+}
+
+.devmind-desktop-deal-of-day .dealofday-card .card-second-block .card-second-block-text{
+text-decoration: line-through;
+margin-left: 20px;
+}
+
+/* slick slider */
+.devmind-desktop-deal-of-day {
+    /* background-color: #f6f6f6; */
+    padding-bottom: 60px;
+  }
+  
+  
+  /* Ensure the images are responsive */
+  .img-fluid {
+      width: 100%;
+      height: auto;
+    }
+    
+    /* Adjust the slider item container */
+    .devmind-desktop-deal-of-day .slider-item {
+      padding: 10px;
+    }
+    
+    /* Ensure the slider container is responsive */
+    .slider-container {
+      max-width: 100%;
+      margin: auto;
+      padding: 0 15px;
+    }
+    
+    /* Media queries for responsive adjustments */
+    @media (max-width: 1024px) {
+      .slider-container {
+        padding: 0 10px;
+      }
+    }
+    
+    @media (max-width: 600px) {
+      .slider-container {
+        padding: 0 5px;
+      }
+    }
+    
+    /* Additional styles for the testimonials */
+    .devminds-mesagecardd {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    
+    .devminds-img {
+      margin-top: 15px;
+      border-radius: 10px;
+    }
+
+    /* overlay effect */
+    .devmind-desktop-deal-of-day .dealofday-card .image-container {
+        position: relative;
+        width: 100%;
+      }
+      
+      .devmind-desktop-deal-of-day .dealofday-card .image-container img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      
+      .devmind-desktop-deal-of-day .dealofday-card .image-container .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        /* background-color: rgb(225 215 215 / 20%); */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .devmind-desktop-deal-of-day .dealofday-card .image-container:hover .overlay {
+        opacity: 1;
+      }
+
+      .devmind-desktop-deal-of-day .dealofday-card .image-container .text {
+        color: white;
+        font-size: 20px;
+        display: flex;
+        gap: 10px;
+        background: var(--theme-color-text);
+        padding: 10px 10px 10px 10px;
+        border-radius: 50%;
+    }
+
+    .devmind-desktop-deal-of-day .blend-image-container:hover{
+        background-blend-mode: lighten;
+
+    }
+
+    
+
+    

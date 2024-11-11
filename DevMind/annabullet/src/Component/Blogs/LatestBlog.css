@@ -1,0 +1,139 @@
+:root {
+    --textMain: rgba(253, 87, 16, 0.866);
+}
+
+.style-dot {
+    clip-path: circle(50% at 50% 50%);
+    background-color: red;
+}
+
+.blogdate {
+    text-align: center;
+    opacity: 0.7;
+}
+
+.blogHead {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.blogHead:hover {
+    color: var(--textMain);
+}
+
+.customCard {
+    /* width: 95%;
+    max-width: 100%;
+    margin: 0 auto; */
+    width: calc(100% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.customCard img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.custom-slider {
+    position: relative;
+}
+
+.custom-slider:hover {
+    .custom-arrow {
+        visibility: visible;
+    }
+
+}
+
+.custom-arrow {
+    height: 30px;
+    width: 30px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    z-index: 1;
+    visibility: hidden;
+    background-color: rgb(245, 242, 242);
+}
+
+.custom-prev-arrow {
+    position: absolute;
+    left: -10px;
+    opacity: 1;
+}
+
+.custom-prev-arrow::before,
+.custom-next-arrow::before {
+    opacity: 1 !important;
+    line-height: 1.5;
+    color: var(--textMain);
+}
+
+.custom-prev-arrow:hover::before,
+.custom-next-arrow:hover::before {
+    opacity: 1;
+    color: rgb(245, 242, 242);
+    /* background:yellow; */
+    line-height: 1.5;
+    border-radius: 50%;
+}
+
+
+.custom-next-arrow {
+    position: absolute;
+    right: -2px;
+    opacity: 1;
+}
+
+.viewebuton {
+    background-color: black;
+    color: white;
+}
+
+.viewebuton:hover {
+    background-color: var(--textMain);
+    color: white;
+}
+
+.custom-prev-arrow:hover,
+.custom-next-arrow:hover {
+    background-color: var(--textMain);
+}
+
+@media (min-width:1024px) and (max-width:1440px) {
+    .custom-slider {
+        margin: 0px 50px 0px 55px !important;
+    }
+}
+
+@media (min-width:320px) and (max-width:481px) {
+    .custom-slider {
+        margin: 0px 15px 0px 20px !important;
+    }
+}
+
+@media screen and (min-width:425px) {
+    .custom-slider {
+        margin-left: 0.5rem;
+    }
+}
+
+@media screen and (min-width:425px) and (max-width: 768px) {
+    .customCard {
+        width: calc(100% - 10px) !important;
+
+    }
+}
+
+@media (max-width: 425px) {
+    .customCard {
+        width: 100%;
+    }
+
+    .custom-arrow {
+        visibility: hidden;
+    }
+}

@@ -1,0 +1,81 @@
+ <Row gutter={[16, 16]}>
+                <Col xs={24} sm={24} md={12} lg={6} xxl={6}>
+                  <Card hoverable bordered={false} className='devminds-product-card'>
+                    <div className='image-container'>
+                      <img alt="example" src={multicard} className='devminds-product-image' />
+                      <div className="overlay">
+                        <div className="text">
+                          <FaSearch />
+                        </div>
+                      </div>
+                    </div>
+                    <Button className='Product-card-button'>
+                      <span className='button-span-style'><FaHeart /></span>
+                      <span className='button-span-style'>ADD TO CART</span>
+                      <span className='button-span-style'><FaCodeCompare /></span>
+                    </Button>
+                    <div className='main-card'>
+                      <Meta title="ACDELCO 335 PROFESSIONAL" description="" className='mt-1 one-line-clamp' />
+                      <div>
+                        <FaStar className='multicard-icon' />
+                        <FaStar className='multicard-icon' />
+                        <FaStar className='multicard-icon' />
+                        <FaStar className='multicard-icon' />
+                        <FaRegStar />
+                      </div>
+                      <Title level={5}>$83.00</Title>
+                    </div>
+                  </Card>
+                </Col>
+                {/* <Col xs={24} sm={24} md={12} lg={6} xxl={6}>col-6</Col>
+            <Col xs={24} sm={24} md={12} lg={6} xxl={6}>col-6</Col>
+            <Col xs={24} sm={24} md={12} lg={6} xxl={6}>col-6</Col> */}
+              </Row>
+
+
+
+
+import Dataproduct from "../../Serverdata/Dataproduct"
+const Productcard = () => {
+  console.log("Dataproduct", Dataproduct)
+  return (
+    <Row gutter={[16, 16]}>
+              {Dataproduct && Dataproduct.length > 0 && Dataproduct.map((e, index) => {
+           return (
+                <Col xs={24} sm={24} md={12} lg={6} xxl={6}>
+                  <Card hoverable bordered={false} className='devminds-product-card'>
+                    <div className='image-container'>
+                      <img alt="example" src={e.img} className='devminds-product-image' />
+                      <div className="overlay">
+                        <div className="text">
+                          <FaSearch />
+                        </div>
+                      </div>
+                    </div>
+                    <Button className='Product-card-button'>
+                      <span className='button-span-style'><FaHeart /></span>
+                      <span className='button-span-style'>ADD TO CART</span>
+                      <span className='button-span-style'><FaCodeCompare /></span>
+                    </Button>
+                    <div className='main-card'>
+                      <Meta title={e.title} description="" className='mt-1 one-line-clamp' />
+                      <div>
+                        <FaStar className='multicard-icon' />
+                        <FaStar className='multicard-icon' />
+                        <FaStar className='multicard-icon' />
+                        <FaStar className='multicard-icon' />
+                        <FaRegStar />
+                      </div>
+                      <Title level={5}>{e.price}</Title>
+                    </div>
+                  </Card>
+                </Col>
+              );
+          })}
+                {/* <Col xs={24} sm={24} md={12} lg={6} xxl={6}>col-6</Col>
+            <Col xs={24} sm={24} md={12} lg={6} xxl={6}>col-6</Col>
+            <Col xs={24} sm={24} md={12} lg={6} xxl={6}>col-6</Col> */}
+              </Row>
+  );
+
+}

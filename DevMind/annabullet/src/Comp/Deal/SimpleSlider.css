@@ -1,0 +1,174 @@
+:root {
+    --textMain: rgb(255, 123, 0);
+}
+
+.deal-contain {
+    background-size: cover;
+}
+
+/* .customSlider {
+    background-color: antiquewhite;
+} */
+
+.desc-right {
+    padding: 20px;
+    /* background-color: white; */
+    text-align: start;
+}
+
+.part-name {
+    color: var(--textMain);
+
+}
+
+.currentPrice {
+    color: var(--textMain);
+}
+
+.slide-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.sideImage {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.customicon {
+    line-height: 0;
+    background-color: black;
+    color: white;
+}
+
+.customicon:hover {
+    background-color: var(--textMain) !important;
+    border: none;
+    color: white !important;
+
+}
+
+.custom-arr {
+    width: 30px !important;
+    height: 30px !important;
+    /* border: 2px solid rgba(0, 0, 0, 0.3) !important; */
+    visibility: hidden;
+    border-radius: 50%;
+    z-index: 1;
+    background-color: var(--textMain) !important;
+}
+
+.customCol:hover {
+    .custom-arr {
+        visibility: visible;
+    }
+}
+
+.custom-arr.customPrevArrow {
+    right: -15px !important;
+}
+
+.customPrevArrow:hover:before,
+.customNextArrow:hover:before {
+    color: white;
+}
+
+.customPrevArrow::before,
+.customNextArrow::before {
+    line-height: 1.6 !important;
+}
+
+@media screen and (min-width:320px) and (max-width:768px) {
+    .custom-arr {
+        visibility: hidden !important;
+        right: -10px !important;
+    }
+}
+
+.customSlider {
+    background-image: url('../ReImages/royal-enfield-hd.jpg');
+    /* height: 90vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 100vh; */
+}
+
+.custSlideContain {
+    background-color: white;
+}
+
+.sideImage,
+.customSlider,
+.custSlideContain,
+.ribbon {
+    margin-top: 3rem;
+}
+
+
+.time {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+.ribbon {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.ribbon {
+    --f: .5em;
+    --r: .8em;
+    z-index: 1;
+    position: absolute;
+    left: 20px;
+    top: calc(-1*var(--f));
+    padding: .2em;
+    background: #BF4D28;
+    border-left: var(--f) solid #0005;
+    /* border-right: var(--f) solid #0005; */
+    border-bottom: var(--r) solid #0000;
+    clip-path: polygon(var(--f) 0, 100% 0, 100% calc(100% - var(--r)), calc(50% + var(--f)/2) 100%, var(--f) calc(100% - var(--r)), var(--f) var(--f), 0 var(--f));
+}
+
+@media screen and (max-width:992px) {
+    .sideImage {
+        margin-top: 0px;
+        padding-bottom: 10px;
+    }
+
+}
+
+
+@media screen and (min-width:375px) and (max-width:425px) {
+    .slide-image {
+        width: 25rem;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .custSlideContain {
+        margin-bottom: 0 !important;
+    }
+
+}
+
+@media screen and (min-width:320px) and (max-width:375px) {
+    .slide-image {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .custSlideContain {
+        margin-bottom: 0 !important;
+    }
+
+}

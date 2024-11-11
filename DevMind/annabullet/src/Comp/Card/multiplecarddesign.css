@@ -1,0 +1,28 @@
+
+.unorderedlistitems{
+    text-align: justify;
+}
+.multiplecardbutton{
+    background-color: black;
+    color: white;
+    /* margin-left: -24%; */
+
+}
+.multiplecardstyle{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.multiplecardheading{
+    text-transform: uppercase;
+}
+.multiplecardheading:hover{
+    color:orangered;
+}
+.unorderedlistitems:hover{
+    color:orangered;
+
+}
+.multiplecardbutton:hover{
+    background-color:orangered!important;
+    color: white!important;
+
+}

@@ -1,0 +1,31 @@
+.stores {
+    margin-bottom: 0px;
+}
+
+.devmind-arr {
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50%;
+    background-color: orange !important;
+    /* background: transparent !important; */
+}
+
+.dev-PrevArrow {
+    left: -8px;
+    z-index: 1;
+}
+
+.dev-NextArrow {
+    right: -8px;
+}
+
+.dev-PrevArrow:before,
+.dev-NextArrow:before {
+    line-height: 1.65;
+}
+
+.dev-PrevArrow:hover:before,
+.dev-NextArrow:hover:before {
+    color: white;
+    /* background-color: orange; */
+}

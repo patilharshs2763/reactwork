@@ -1,0 +1,36 @@
+.devminds-upper-header-desktop{
+    background-color: var(--theme-color_5);
+    padding:10px;
+}
+.devminds-upper-header-desktop .media{
+    justify-content: flex-start;
+    gap: 15px;
+}
+.devminds-upper-header-desktop .media .mediaicon{
+    background-color: var(--theme-color_5);
+    color:white;
+}
+.devminds-upper-header-desktop .media .mediaicon:hover{
+    background-color: var(--theme-color-text);
+    color:white;
+    border-color: var(--theme-color_5);
+}
+
+.devminds-upper-header-desktop .media-second .breadcrumb-icon{
+    color: var(--theme-color-text);
+    padding: 0px 6px 0px 0px;
+    font-size: 16px;
+}
+.devminds-upper-header-desktop .media-second .breadcrumb-text{
+    color:white;
+}
+.devminds-upper-header-desktop .media-second li{
+    color: white !important ;
+}
+
+@media (max-width: 768px) {
+
+    .devminds-upper-header-desktop{
+        display: none;
+    }
+  }

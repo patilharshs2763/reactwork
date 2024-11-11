@@ -1,0 +1,63 @@
+.devminds-desktop-header .image-logo{
+    padding: 12px 0px 0px 0px;
+    width: 100%;
+    height: 70px;
+}
+
+.devminds-desktop-header .space-style{
+    padding: 45px 0px 0px 0px;
+    margin-left: 10px;
+
+}
+/* css triggering */
+.devminds-desktop-header  .space-style  .ant-input-group-addon:last-of-type{
+    background: var(--theme-color-text);
+    color: white !important;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+/* .devminds-desktop-header  .space-style .searchiconstyle .ant-input-group-addon {
+    background: var(--theme-color-text);
+} */
+.devminds-desktop-header .space-style .ant-input-group-addon .ant-select {
+    margin: -7px 4px;
+}
+
+.devminds-desktop-header .button-style{
+    padding: 44px 0px 0px 0px;
+}
+
+.devminds-desktop-header .button-style .button-flex{
+    /* justify-content: space-evenly; */
+    justify-content: end;
+    gap: 18px
+}
+
+.devminds-desktop-header .button-style .button-flex .button-flex-hover:hover{
+    color:var(--theme-color_1);
+    /* border-color:var(--theme-color_1); */
+    background: #ffffff;
+    border:1.5px solid var(--theme-color_1);
+    border-radius: 10px;
+}
+
+.devminds-desktop-header .button-style .button-flex .button-flex-hover{
+    color: var(--theme-color_1);
+
+}
+
+.devminds-desktop-header .button-style .button-flex .button-flex-hover .flex-text{
+    color: black;
+}
+.devminds-desktop-header .button-style .button-flex .button-flex-hover .button-icon{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--theme-color_1);
+}
+    
+@media (max-width: 768px)  {
+    .devminds-desktop-header{
+        display: none;
+    }
+}

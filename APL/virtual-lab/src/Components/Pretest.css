@@ -1,0 +1,40 @@
+.section-main-divs {
+    font-family: Arial, sans-serif;
+}
+
+.section-heading {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-section-div1 {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.questions-div {
+    margin-bottom: 20px;
+}
+
+.que-div {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.options-div label {
+    font-weight: bold;
+    /* Bold only for options */
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+.que-div::before {
+    content: "* ";
+    color: red; /* Optional: to highlight the asterisk in red */
+    margin-right: 5px;
+}

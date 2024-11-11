@@ -1,0 +1,257 @@
+.harsh-about {
+    color: var(--text-color);
+    padding-top: 10px;
+}
+
+
+.harsh-about-image-main {
+    display: grid !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 20px;
+}
+
+.harsh-about-description {
+    /* overflow: visible; */
+    /* Ensure content isn't clipped */
+}
+
+.harsh-about-desc {
+    background-color: var(--bg-lightColor);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.harsh-details {
+    padding: 10px 0px 0px 10px;
+    border-radius: 20px;
+    background-color: var(--bg-lightColor);
+}
+
+.harsh-intrest-contains {
+    background-color: var(--bg-lightColor);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.harsh-intro {
+    color: var(--socialColor) !important;
+}
+
+.harsh-aboutme,
+.harsh-intresr-title {
+    color: var(--myName) !important;
+}
+
+.harsh-details-data,
+.harsh-details-title {
+    color: var(--text-color);
+}
+
+.harsh-about-desc {
+    color: var(--text-color);
+}
+
+.harsh-intrests {
+    color: var(--text-color);
+}
+
+.harsh-intro {
+    margin-bottom: 0px !important;
+}
+
+.harsh-aboutme {
+    margin-top: 0px !important;
+}
+
+.harsh-details-list {
+    list-style: none;
+}
+
+.harsh-name-iconStyle {
+    color: var(--socialColor);
+}
+
+.harsh-details-list {
+    padding-left: 0rem;
+}
+
+.harsh-mainData {
+    padding-left: 2rem;
+}
+
+.harsh-intrests {
+    width: 90px;
+}
+
+.harsh-intrest-icons {
+    color: var(--socialColor);
+    padding-right: 5px;
+}
+
+
+.harsh-about-myImage {
+    height: 325px;
+    border-radius: 20px;
+}
+
+/* ordering of col */
+.harsh-about-image-main {
+    order: 1;
+}
+
+.harsh-about-description {
+    order: 2;
+}
+
+@media screen and (max-width:768px) {
+    .harsh-about-image-main {
+        order: 2;
+    }
+
+    .harsh-about-description {
+        order: 1;
+    }
+}
+
+.myimg {
+    --b: 0.5em;
+    /* border width */
+    --c: 3em;
+    /* corner size */
+    --r: 2em;
+    /* corner rounding */
+    position: relative;
+    margin: 1em auto;
+    border: solid var(--b) transparent;
+    padding: 1em;
+
+    &::before {
+        position: absolute;
+        z-index: 1;
+        inset: calc(-1 * var(--b));
+        border: inherit;
+        border-radius: var(--r);
+        /* Create a gradient with cyan and orangered */
+        background: linear-gradient(#b4ecf6d8, rgb(189, 112, 84)) border-box;
+        --corner:
+            conic-gradient(from -90deg at var(--c) var(--c), rgb(132, 249, 249) 25%, #cec6c600 0) 0 0/ calc(100% - var(--c)) calc(100% - var(--c)) border-box;
+        --inner: conic-gradient(rgb(219, 235, 237) 0 0) padding-box;
+        -webkit-mask: var(--corner), var(--inner);
+        -webkit-mask-composite: source-out;
+        mask: var(--corner) subtract, var(--inner);
+        content: '';
+    }
+}
+
+/* check out css */
+
+.harsh-techSkills {
+    color: var(--myName) !important;
+}
+
+.harsh-checkou-card {
+    background-color: var(--bg-lightColor) !important;
+    color: white;
+}
+
+.harsh-checkout-skills {
+    color: var(--text-color) !important;
+    text-align: center;
+}
+
+.horizonatl-line {
+    color: rgb(151, 150, 150);
+}
+
+@media screen and (min-width:584px) {
+    .harsh-skillContent {
+        padding: 10px 35px;
+    }
+}
+
+
+.harsh-skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-lightColorSkill);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+}
+
+.skill-html,
+.skill-css,
+.skill-java,
+.skill-react,
+.skill-bootstrap,
+.skill-mui {
+    font-size: 30px;
+}
+
+.skill-react {
+    color: aqua;
+}
+
+.skill-html {
+    color: #ef6429;
+}
+
+.skill-css {
+    color: #2260e5;
+}
+
+.harsh-skillCpp {
+    height: 40px;
+    width: 40px;
+}
+
+.harsh-skillAntD {
+    height: 30px;
+    width: 30px;
+}
+
+.harsh-hackerrank,
+.harsh-gfg,
+.harsh-codingNinja,
+.harsh-leetCode {
+    height: 30px;
+    width: 30px;
+}
+
+.harsh-codingNinja {
+    mix-blend-mode: lighten;
+}
+
+.skill-platform {
+    height: 100px;
+    width: 100px;
+}
+
+@media screen and (min-width:1240px) {
+    .platformCard {
+        height: 288px;
+    }
+}
+
+@media screen and (min-width:1032px) and (max-width:1239px) {
+    .platformCard {
+        height: 392.8px;
+    }
+}
+
+@media screen and (min-width:825px) and (max-width:1031px) {
+    .platformCard {
+        height: 496px;
+    }
+}
+
+@media screen and (min-width:767px) and (max-width:824px) {
+    .platformCard {
+        height: 600px;
+    }
+}

@@ -1,0 +1,26 @@
+.prod-img {
+    height: 50px;
+}
+
+.prod-desc li {
+    text-align: start;
+}
+
+.viewebuton {
+    background-color: black;
+    color: white;
+}
+
+.viewebuton:hover {
+    background-color: rgb(255, 98, 0) !important;
+    color: white !important;
+    border: none;
+}
+
+.h6Head {
+    text-transform: uppercase;
+}
+
+.h6Head:hover {
+    color: rgb(255, 98, 0);
+}

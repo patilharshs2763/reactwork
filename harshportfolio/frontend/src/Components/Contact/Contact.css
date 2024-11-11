@@ -1,0 +1,31 @@
+.harsh-contactMain {
+    /* background: var(--bg-color); */
+}
+
+.harsh-ContactContent {
+    padding: 0% 5% !important;
+}
+
+.harsh-contact {
+    color: var(--socialColor) !important;
+    text-align: center;
+    margin-bottom: 0px !important;
+}
+
+.harsh-getInTouch {
+    color: var(--myName) !important;
+    text-align: center;
+    margin-top: 0px !important;
+    padding-top: 0px;
+}
+
+.harsh-contactRow {
+    background: var(--bg-lightColor);
+}
+
+.harsh-nameInput,
+.harsh-emailInput {
+    width: 40%;
+    color: white;
+    background-color: wheat;
+}

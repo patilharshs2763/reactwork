@@ -1,0 +1,123 @@
+.devminds-content,
+.star-rating {
+  text-align: center;
+}
+
+.devminds-titletextstyle {
+  color: var(--thm-black);
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+  font-family: var(--thm-font-2);
+}
+.devmainds-maintitlstylee {
+  color: var(--allthimcolor);
+  padding-top: 70px;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  height: 100px;
+  text-transform: uppercase;
+  font-family: var(--thm-font);
+}
+.devminds-mesagecardd {
+  background-color: #fff;
+  position: relative;
+  margin: 15px;
+  height: 228px;
+  border-radius: 20px;
+  box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.1);
+}
+.devminds-contenth6 {
+  padding: 30px;
+}
+.devminnds-messageslider {
+  width: 100% !important;
+  /* border:1px solid black; */
+}
+.devminds-messagearrow {
+  position: absolute;
+  bottom: -9px;
+  content: "";
+  background-color: #fff;
+  height: 45px;
+  right: 66%;
+  transform: rotate(135deg);
+  width: 46px;
+}
+.star-rating {
+  font-size: 24px;
+  cursor: pointer;
+  padding-top: 19px;
+}
+.star {
+  color: #ccc;
+  margin-right: 5px;
+}
+.star.filled {
+  color: gold;
+}
+
+
+/* Ensure the images are responsive */
+.img-fluid {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Adjust the slider item container */
+  .devmind-slider-shopbybrand .slider-item {
+    padding: 10px;
+    /* border: 0.1px solid black; */
+  }
+  
+  /* Ensure the slider container is responsive */
+  .slider-container {
+    max-width: 100%;
+    margin: auto;
+    padding: 0 15px;
+  }
+  
+  /* Media queries for responsive adjustments */
+  @media (max-width: 1024px) {
+    .slider-container {
+      padding: 0 10px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .slider-container {
+      padding: 0 5px;
+    }
+  }
+  
+  /* Additional styles for the testimonials */
+  .devminds-mesagecardd {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .devminds-img {
+    margin-top: 15px;
+    border-radius: 10px;
+  }
+
+  .devmind-slider-shopbybrand  .shopbybrand-text{
+    text-align: center;
+    color: var(--theme-color-text);
+
+}
+
+.devmind-slider-shopbybrand  .shopbybrand-heading{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0px !important;
+}
+
+.devmind-slider-shopbybrand  .shopbybrand-heading .shopbybrand-heading-icon{
+  color: var(--theme-color-text);
+}
+  

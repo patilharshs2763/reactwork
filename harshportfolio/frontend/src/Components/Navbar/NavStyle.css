@@ -1,0 +1,155 @@
+.harsh-navbar-style {
+    background: var(--bg-color);
+
+}
+
+.harsh-navbrand {
+    color: red;
+    font-weight: bold;
+    letter-spacing: var(--letterSpacing);
+}
+
+.harsh-navbrand:hover {
+    color: red;
+}
+
+.harsh-navbrand:focus,
+.harsh-navbrand:active {
+    color: red;
+}
+
+.harsh-navbar-ul {
+    justify-content: center;
+}
+
+.custNavBtn {
+    color: var(--text-color);
+    letter-spacing: var(--letterSpacing);
+}
+
+.custNavBtn:hover {
+    color: var(--textOnhover);
+}
+
+.custNavBtn:focus,
+.custNavBtn:active {
+    color: var(--textOnhover);
+}
+
+.harsh-navbar {
+    border: 2px solid var(--navBorder);
+    border-radius: 20px;
+    box-shadow: var(--navShadow1) 6px 2px 16px 0px, var(--navShadow2) -6px -2px 16px 0px;
+}
+
+.hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    /* background: #24c2de; */
+    background: var(--textOnhover);
+    height: 2px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-center:hover:before,
+.hvr-underline-from-center:focus:before,
+.hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
+}
+
+/* right side account signup/in  */
+.harsh-toggleBtn {
+    color: var(--socialColor);
+}
+
+.harsh-navAcc {
+    color: var(--socialColor);
+}
+
+.harsh-signUp {
+    text-decoration: none;
+}
+
+:where(.css-dev-only-do-not-override-ccdg5a).ant-dropdown .ant-dropdown-menu,
+:where(.css-dev-only-do-not-override-ccdg5a).ant-dropdown-menu-submenu .ant-dropdown-menu {
+    background-color: var(--bg-dropdwn) !important;
+}
+
+.harsh-drawer-signup {
+    color: var(--socialColor);
+}
+
+span.ant-dropdown-menu-title-content {
+    color: aliceblue;
+    letter-spacing: var(--letterSpacing);
+}
+
+.sideBar {
+    background-color: rgb(40, 52, 53);
+    color: white;
+}
+
+@media (max-width:600px) {
+    .sideBar {
+        width: 60% !important;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .harsh-navbar {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .harsh-navbar-ul {
+        justify-content: start;
+    }
+}
+
+
+.harsh-navAcc {
+    /* color: #fff; */
+    /* font-size: 92px; */
+    /* text-transform: uppercase; */
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    background: linear-gradient(to right, #095fab 10%, #25abe8 50%, #57d75b 60%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    /* color: #fff; */
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1.5s linear infinite;
+    display: inline-block;
+}
+
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}

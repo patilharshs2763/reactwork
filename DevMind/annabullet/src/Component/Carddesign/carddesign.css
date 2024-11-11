@@ -1,0 +1,86 @@
+.devmind-cardesign-desktop .cardimage{
+    width: 100%;
+}
+
+
+.devmind-cardesign-desktop .background-photo{
+    background-image: url('../../image/cardimge.jpg');
+    width: 100%;
+    height: 280px !important;
+    text-align: center;
+    background-size: cover;
+}
+
+.devmind-cardesign-desktop .background-photo .card-button{
+    width: 90%;
+    font-weight: 500;
+
+}
+
+.devmind-cardesign-desktop .background-photo .card-button .card-menu-button{
+    margin-left: 66px;
+}
+
+.devmind-cardesign-desktop .background-photo .carddesign-text{
+    text-transform: uppercase; 
+    color: white;
+    text-align: center; 
+    padding: 35px 0px 0px 0px; 
+ }
+
+.devmind-cardesign-desktop .background-photo .carddesign-text-sub{
+    text-transform: uppercase; 
+    color: white!important;
+    text-align: center;
+ }
+
+
+ .devmind-cardesign-desktop .background-photo .card-button:hover{
+    color: var(--theme-color-text);
+    border-color:var(--theme-color_1) ;
+    background: #ffffff;
+ }
+
+ .devmind-cardesign-desktop .background-photo .card-button-search{
+    background-color: var(--theme-color-text);
+    width: 80%;
+    color: white;
+    font-weight: 500;
+    border: none;
+ }
+
+ .devmind-cardesign-desktop .background-photo .card-button-search:hover{
+    color: white;
+    border-color:white ;
+    background: var(--theme-color-text);
+ }
+
+ .devmind-cardesign-desktop .background-photo .card-button-search .card-menu-button{
+    margin-right: 20px;
+}
+@media (max-width:768px) {
+
+    .devmind-cardesign-desktop .background-photo .carddesign-text{
+        text-transform: uppercase; 
+        color: white;
+        text-align: center; 
+        padding: 6px 0px 0px 0px; 
+     }
+
+     .devmind-cardesign-desktop .background-photo .carddesign-text-sub{
+        font-size: 14px;
+     }
+
+     .devmind-cardesign-desktop .background-photo {
+        height: 375px !important;
+     }
+}
+
+@media (min-width:554px){
+    
+    .devmind-cardesign-desktop .background-photo {
+        height: 240px;
+     }
+}
+
+

@@ -1,0 +1,65 @@
+.devmind-feedback {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-image: url("../Images/lightonroad.jpeg");
+    background-size: cover;
+    height: 90vh;
+    margin-top: 10px;
+    color: white;
+    box-shadow: inset 0px -85px 33px rgba(0, 0, 0, 0.7);
+
+}
+
+.devmind-userfeedback {
+    width: 50%;
+    text-align: center;
+}
+
+.devmind-user {
+    width: 300px;
+}
+
+.devmind-feedback-title {
+    margin-bottom: 1em;
+    text-align: center;
+    font-family: "Playwrite NL", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.devmin-feedback-data {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    margin-bottom: 6em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 19px;
+}
+
+.feedback-rate {
+    color: rgb(223, 223, 10);
+}
+
+@media screen and (max-width:768px) {
+    .devmin-feedback-data {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .devmind-feedback-title {
+        font-size: larger;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .devmind-feedback-title {
+        font-size: medium;
+    }
+}

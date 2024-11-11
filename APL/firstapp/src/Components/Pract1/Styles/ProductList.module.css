@@ -1,0 +1,21 @@
+/* src/styles/ProductList.module.css */
+.productList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.productCard {
+    border: 2px solid rgba(245, 245, 245, 0.527);
+}
+
+.productCard:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.productDesc {
+    /* background-color: aqua; */
+    line-height: 10px;
+}

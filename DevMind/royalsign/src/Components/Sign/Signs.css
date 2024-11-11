@@ -1,0 +1,78 @@
+.signimg {
+    width: 100%;
+    height: 430px;
+    border-radius: 10px;
+}
+
+.devminds-signs-card {
+    height: 430px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.devminds-signs-card:hover {
+    transform: scale(1.05);
+
+}
+
+.devminds-signs-card .ant-card-body {
+    padding: 0px;
+}
+
+.devminds-sign {
+    font-size: var(--font-size);
+}
+
+.devminds-comsigns {
+    font-family: var(--font-family);
+    font-size: 42px;
+    font-weight: 550;
+}
+
+.devminds-types-sign {
+    padding: 10px;
+    /* background-color: rgb(230, 236, 242); */
+}
+
+.devminds-quoat-contain {
+    min-height: 290px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+    box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.6);
+}
+
+.devminds-quoat {
+    font-size: 13px;
+    font-weight: 550;
+}
+
+.devminds-reqest {
+    text-align: start;
+}
+
+.devminds-icon {
+    margin-left: 150px;
+}
+
+@media screen and (max-width: 992px) {
+    .devminds-icon {
+        margin-left: 100px;
+    }
+}
+
+.devminds-signage {
+    height: 68px !important;
+    margin-top: 4px !important;
+    background-color: white !important;
+    color: black !important;
+    border-radius: 15px !important;
+    text-transform: capitalize !important;
+    /* text-align: justify!important; */
+    box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.6);
+
+}
+
+.firstbtn {
+    margin: 0 !important;
+}

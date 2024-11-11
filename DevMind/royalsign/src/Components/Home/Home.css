@@ -1,0 +1,45 @@
+.devmind-home {
+    position: relative;
+    background-image: url("../Images/backimg.jpg");
+    background-size: cover;
+    height: 80vh;
+    margin-top: -64px;
+    z-index: -1;
+    border-radius: 0px 0px 25px 25px;
+}
+
+.devmind-home-data {
+    height: 90%;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 0px 25px;
+}
+
+.devmind-royal {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-size: 65px;
+    font-weight: 500;
+}
+
+.devmind-royalsign {
+    color: white;
+}
+
+.devmind-sign {
+    font-size: 36px;
+}
+
+.devmind-royaltext {
+    color: white;
+}
+
+@media (max-width:550px) {
+
+    .devmind-royalsign,
+    .devmind-royaltext {
+        display: none;
+        /* visibility: hidden; */
+    }
+}

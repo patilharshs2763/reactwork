@@ -1,0 +1,13 @@
+.devmind-contact-page .contact-page-heading{
+text-align: center;
+font-weight: bold;
+}
+
+.devmind-contact-page .devmind-contact-page .contact-page-button{
+    margin-left: 50%;
+    background-color: var(--theme-color-text);
+}
+
+.devmind-contact-page .submit-button-block{
+    text-align: center;
+}

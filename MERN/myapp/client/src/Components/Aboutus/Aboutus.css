@@ -1,0 +1,13 @@
+.hero-content p {
+    font-size: 1rem;
+    line-height: 1.56;
+    letter-spacing: 0.045rem;
+    word-spacing: 0.04rem;
+    text-align: justify;
+}
+
+.hero-content h1 {
+    font-size: 2rem;
+    line-height: 1.1;
+    font-weight: bold;
+}

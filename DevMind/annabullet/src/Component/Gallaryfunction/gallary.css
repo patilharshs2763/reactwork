@@ -1,0 +1,38 @@
+.devmind-desktop-gallary .devmind-gallary-image{
+    width: 100%;
+}
+.devmind-desktop-gallary .ant-image:hover .devmind-gallary-image .ant-image-mask{
+    opacity: 0.8 !important;
+}
+
+
+/* .devmind-desktop-gallary .ant-image{
+    position: relative;
+    display: inline-block;
+}
+.devmind-desktop-gallary .ant-image .ant-image-mask{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(199, 15, 15, 0.5) !important;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s;
+} */
+
+.devmind-desktop-gallary .ant-image .ant-image-mask .ant-image-mask-info{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 1px 4px;
+    display: none;
+}
+
+.devmind-desktop-gallary .gallary-image-block{
+    /* border: 0.5px solid black; */
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
